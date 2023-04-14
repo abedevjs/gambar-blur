@@ -1,0 +1,6 @@
+cargo init --lib
+npm init -y
+npm install -D webpack webpack-cli webpack-dev-server
+npm install -D html-webpack-plugin
+npm install -D @wasm-tool/wasm-pack-plugin
+cargo install wasm-pack@0.9.1
